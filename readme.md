@@ -8,7 +8,7 @@ git clone https://github.com/siddharth018/nodejscrud.git
 <h2>Step 2: Configure your database from app.js file</h2> 
 
    
-   app.use(
+     app.use(
     
     connection(mysql,{
         
@@ -18,9 +18,7 @@ git clone https://github.com/siddharth018/nodejscrud.git
         port : 3306, //port mysql
         database:'nodejs'
 
-    }) //or single
-
-);
+    }));
 
 <h2>Step 3: import database file from root directory</h2> 
     
@@ -30,7 +28,7 @@ git clone https://github.com/siddharth018/nodejscrud.git
 
 <h2>Step 5: Run server</h2>  
 
-    node app.js
+     node app.js
 
 ## Youtube
 Join in youtube
